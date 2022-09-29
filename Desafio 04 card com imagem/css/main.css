@@ -1,81 +1,100 @@
-.container{
-
+.container-0{
+    
+    position: relative;
     width: 1280px;
     height: 720px;
+    background: #E5E5E5;;
+}
+.container{
+    
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    background: #ffffff;;
+    background: #ffffff;
     position: absolute;
     width: 320px;
     height: 432px;
     left: 480px;
     top: 144px;
-
     border-radius: 32px;
-   
 }
-.container-0{
-
-    position: relative;
-    width: 1280px;
-    height: 720px;
-    background: #D6D4E2;;
-
-}
-#container-1{
+.container-1{
 
     display: flex;
-    align-items: flex-end;
-    
-
-
+    align-items: center;
+    width: 320px;
+    height: 24px;
+    gap: 17px;
+    padding-top: 16px;
 }
+.container-2{
+
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    gap: 8px;
+   
+}
+
 #tittle-1{
 
-    height: 80px;
     width: 256px;
+    height: 80px;
     left: 24px;
     top: 24px;
-    border-radius: nullpx;
-    font-family: 'Space Grotesk';
-    font-style: normal;
     font-weight: 700;
     font-size: 32px;
-    line-height: 40px;
-    color:  #18161F;
+    padding-left: 24px;
+    padding-top: 18px;
+
+}
+#tittle-2{
+
+    font-size: 14px;
+    gap: 8px;
+
+}
+#tittle-3{
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #8e8e8e;
+    gap: 8px;
+}
+#tittle-4{
+
+    font-size: 14px;
+    color: #8e8e8e;
+
+}
+#img-1{
+
+    background: #fffdfd;
+    padding-left: 24px;
+    width: 32px;
+    height: 32px;
+}
+#img-2{
+
+    width: 24px;
+    height: 22px;
+    padding-top: 5px;
+    padding-left: 26px;
     
-    }
-    #tittle-2{
+}
+#img-3{
 
-        width: 201px;
-        height: 24px;
+    width: 24px;
+    height: 22px;
+    padding-top: 5px;
+    padding-left: 170px;
+   
 
-        font-family: 'Space Grotesk';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-       
+}
+#olho{
+position: absolute;
+display: flex;
+padding-left: 257px;
 
-    }
-    #texto-3{
-
-        color: #969696;;
-
-
-    }
-    #img-2{
-
-        width: 32px;
-        height: 32px;
-        display: flex;
-        flex-direction: row;
-
-    }
-
-
+}
